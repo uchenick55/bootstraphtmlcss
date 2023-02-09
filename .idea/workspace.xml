@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46db2ab8-7a8e-4dae-b683-052b5dd2cdf7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2LPzfLwEbI8ewypE6coHGXudwF5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Webstorm_projects\bootstrap5\css" />
+      <recent name="D:\Webstorm_projects\bootstrap5\js" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46db2ab8-7a8e-4dae-b683-052b5dd2cdf7" name="Default Changelist" comment="" />
+      <created>1675787607537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675787607537</updated>
+      <workItem from="1675787608690" duration="12166000" />
+      <workItem from="1675845632720" duration="27885000" />
+      <workItem from="1675918270827" duration="1261000" />
+      <workItem from="1675925170452" duration="6376000" />
+      <workItem from="1675933080150" duration="7110000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="138" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1675859642212">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="396" y="138" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.672@0.0.1280.672" timestamp="1675859642212" />
+    <state x="346" y="71" width="589" height="530" key="find.popup" timestamp="1675886633458">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="346" y="71" width="589" height="530" key="find.popup/0.0.1280.672@0.0.1280.672" timestamp="1675886633458" />
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup" timestamp="1675926969448">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="303" y="-1" width="672" height="678" key="search.everywhere.popup/0.0.1280.672@0.0.1280.672" timestamp="1675926969448" />
+  </component>
+</project>
