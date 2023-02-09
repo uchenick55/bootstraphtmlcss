@@ -1,6 +1,10 @@
 :root {
-    --color1: #05b1b1; /*переменные - главные цвета темы*/
-    --color2: #52339a;
+    --color1: #006ecb; /*переменные - главные цвета темы*/
+    --color2: rgba(30, 172, 0, 0.6);
+}
+
+.about, .otzivi, .programm1 {
+    background-color: rgba(65, 113, 255, 0.15); /*цвет фона*/
 }
 
 .color1 {
@@ -22,9 +26,9 @@ header, footer { /*градиент заголовка*/
     background: var(--color1);
     background: -moz-linear-gradient(top, var(--color1) 1%, var(--color2) 100%);
     background: -webkit-linear-gradient(top, var(--color1) 1%, var(--color2) 100%);
-    background: url("../img/pattern.png"), linear-gradient(to bottom, var(--color1) 1%, var(--color2) 100%);
+    background: url("../img/shapka1.png"), linear-gradient(to bottom, var(--color1) 1%, var(--color2) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=var(--color1), endColorstr=var(--color2), GradientType=0);
-    background-size:;
+    background-repeat: no-repeat;
 
 }
 
@@ -57,7 +61,7 @@ header, footer { /*градиент заголовка*/
 
 .btn-itd { /*кнопка заказать*/
     display: block; /* на всю ширину*/
-    max-width: 200px;
+    max-width: 300px;
     margin: 0px auto; /*по центру внешне с отступами по 0 сверху и низу*/
     padding: 8px 30px;
     color: var(--bs-white); /*цвет текста белый*/
@@ -70,14 +74,14 @@ header, footer { /*градиент заголовка*/
     background-color: var(--color1); /* смена цвета при наведении*/
 
 }
-
-.embed-container { /*стили видео в header (из ютуба после обработки https://embedresponsively.com/ )*/
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
+/*стили видео в header (из ютуба после обработки https://embedresponsively.com/ )*/
+.embed-container {
+     position: relative;
+     padding-bottom: 56.25%;
+     height: 0;
+     overflow: hidden;
+     max-width: 100%;
+ }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
     position: absolute;
@@ -88,11 +92,9 @@ header, footer { /*градиент заголовка*/
 }
 
 /*блок О КУРСЕ*/
-.about, .author {
-    background-color: #eee; /*цвет фона*/
-}
 
-.about, .author h2 { /*стиль заголовка*/
+
+.about, .otzivi h2 { /*стиль заголовка*/
     color: var(--color2);
 }
 
@@ -103,10 +105,10 @@ header, footer { /*градиент заголовка*/
 
 .itd-circle { /*кружок вокруг пиктограммы*/
     margin: 0 auto 15px; /* отступ 0 сверху, по центру горизонтали, 15 снизу*/
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 60px;
     border: 3px solid var(--color2);
-    border-radius: 50%;
+    border-radius: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,9 +133,7 @@ header, footer { /*градиент заголовка*/
 
 
 /*блок ПРОГРАММА КУРСА*/
-.programm1 {
-    background-color: #eee; /*цвет фона*/
-}
+
 
 .programm1 h4 {
     font-weight: bold;
@@ -168,14 +168,14 @@ header, footer { /*градиент заголовка*/
 }
 
 /*Процесс обучения*/
-.learning h5 {
+.examples h5 {
     border: 3px solid var(--color1);
     padding: 30px;
 }
 
 
 /*Об авторе*/
-.author p {
+.otzivi p {
     font-size: 1.3rem;
 }
 
@@ -188,4 +188,13 @@ header, footer { /*градиент заголовка*/
 .myBorder {
     border: 3px solid var(--color1);
 
+}
+
+.horVertCenter {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.myFooter img {
+    width: 50px;
 }
